@@ -1,0 +1,47 @@
+bit 0 (sign)
+
+0XXX1XXX
+1XXX0XXX
+XX11XX11
+
+bit 1 (max)
+
+X1X1XXXX
+X1X0XXXX
+XXXXX100
+X00XX011
+X01XX011
+
+bit 2 (zero)
+
+X011X1X1
+X011X00X
+
+bit 3 (invalid)
+
+X00XX010
+XX10X010
+
+bit 4 (div0)
+
+X00XXX11
+X010XX11
+X101XX11
+XX11XX11
+
+bit 5 (NaN)
+
+X100XXXX
+XXXXX100
+X101X101
+XX11XX11
+
+X100 NaN
+X101 inf
+X000 num (n^2)
+X001 num
+X010 gradual underflow
+X011 zero
+
+
+
